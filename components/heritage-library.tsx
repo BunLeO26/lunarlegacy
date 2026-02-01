@@ -105,11 +105,10 @@ export function HeritageLibrary() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <Badge variant="secondary" className="mb-4">Heritage Library</Badge>
           <h2 className="font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-            Discover Traditional Vietnamese Crafts
+            Khám phá quy trình làm bánh 
           </h2>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-            Explore our curated collection of craft villages, each with centuries of tradition 
-            and artisanal mastery waiting to be discovered.
+            
           </p>
         </div>
 

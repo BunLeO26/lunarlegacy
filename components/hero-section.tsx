@@ -16,13 +16,11 @@ export function HeroSection() {
             </div>
             
             <h1 className="font-serif text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
-              Preserving Heritage, One Craft at a Time
+              Bánh tét Mặt Trăng: Từ làng cổ Đại An Khê đến kỷ nguyên số
             </h1>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-              Connect with traditional Vietnamese craft villages through the power of storytelling. 
-              Every QR code reveals centuries of artisanal wisdom, cultural traditions, and the 
-              passionate craftspeople keeping them alive.
+              Mỗi đòn bánh không chỉ là thực phẩm mà là một "hồ sơ số" duy nhất, kết nối người dùng với câu chuyện cuộc đời và đôi bàn tay của các nghệ nhân làng Đại An Khê.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -42,18 +40,18 @@ export function HeroSection() {
 
             <div className="flex items-center gap-8 pt-4">
               <div className="text-center">
+                <div className="text-3xl font-serif font-bold text-primary">3+</div>
+                <div className="text-sm text-muted-foreground">Vùng sản xuất</div>
+              </div>
+              <div className="h-12 w-px bg-border" />
+              <div className="text-center">
                 <div className="text-3xl font-serif font-bold text-primary">50+</div>
-                <div className="text-sm text-muted-foreground">Craft Villages</div>
+                <div className="text-sm text-muted-foreground">Nghệ nhân</div>
               </div>
               <div className="h-12 w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-serif font-bold text-primary">200+</div>
-                <div className="text-sm text-muted-foreground">Artisans</div>
-              </div>
-              <div className="h-12 w-px bg-border" />
-              <div className="text-center">
-                <div className="text-3xl font-serif font-bold text-primary">12</div>
-                <div className="text-sm text-muted-foreground">Craft Categories</div>
+                <div className="text-3xl font-serif font-bold text-primary"></div>
+                <div className="text-sm text-muted-foreground"></div>
               </div>
             </div>
           </div>
@@ -73,7 +71,8 @@ export function HeroSection() {
                       <MapPin className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-serif font-semibold text-card-foreground">Bat Trang Village</h3>
+
+            <h3 className="font-serif font-semibold text-card-foreground">Bat Trang Village</h3>
                       <p className="text-sm text-muted-foreground">Traditional Ceramics since 1010 AD</p>
                     </div>
                   </div>
