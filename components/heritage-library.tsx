@@ -7,12 +7,25 @@ import { Badge } from "@/components/ui/badge"
 import { MapPin, ArrowRight, Filter } from "lucide-react"
 import Link from "next/link"
 
+interface HeritageItem {
+  id: string
+  name: string
+  image: string
+  featured: boolean
+  description?: string
+  artisans?: number
+  category?: string
+  village?: string
+  region?: string
+  heritage?: string
+}
+
 const categories = [
   { id: "all", name: "Các bước làm " },
   { id: "ceramics", name: "Sản phẩm của chúng tôi" },
 ]
 
-const heritageItems = [
+const heritageItems: HeritageItem[] = [
   {
     id: "gao-nep",
     name: "Nếp thơm đã ngâm với nước lá cho ra màu xanh",
@@ -56,9 +69,7 @@ const heritageItems = [
 export function HeritageLibrary() {
   const [activeCategory, setActiveCategory] = useState("all")
 
-  const filteredItems = activeCategory === "all" 
-    ? heritageItems 
-    : heritageItems.filter(item => item.category === activeCategory)
+  const filteredItems = activeCategory === "all" ? heritageItems : heritageItems.filter(item => item.category === activeCategory)
 
   return (
     <section id="heritage" className="bg-secondary/50 py-20 lg:py-28">
@@ -107,10 +118,12 @@ export function HeritageLibrary() {
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <CardContent className="p-5">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                    <MapPin className="h-3.5 w-3.5" />
-                    <span>{item.village}, {item.region}</span>
-                  </div>
+                  {(item.village || item.region) && (
+                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
+                      <MapPin className="h-3.5 w-3.5" />
+                      <span>{[item.village, item.region].filter(Boolean).join(', ')}</span>
+                    </div>
+                  )}
                   <h3 className="font-serif text-xl font-semibold text-card-foreground mb-2 group-hover:text-primary transition-colors">
                     {item.name}
                   </h3>
@@ -119,8 +132,8 @@ export function HeritageLibrary() {
                   </p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4 text-sm">
-                      <span className="text-primary font-medium">{item.heritage}</span>
-                      <span className="text-muted-foreground">{item.artisans} artisans</span>
+                      {item.heritage && <span className="text-primary font-medium">{item.heritage}</span>}
+                      {item.artisans && <span className="text-muted-foreground">{item.artisans} artisans</span>}
                     </div>
                     <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
                   </div>
