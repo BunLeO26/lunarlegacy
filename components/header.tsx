@@ -9,7 +9,7 @@ const navigation = [
   { name: "Thư viện di sản", href: "#heritage" },
   { name: "Nghệ nhân", href: "/artisans" },
   { name: "Tri ân", href: "/gratitude" },
-  { name: "About", href: "#about" },
+  { name: "Về chúng tôi", href: "#about" },
 ]
 
 export function Header() {

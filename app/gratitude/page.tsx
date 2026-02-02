@@ -24,11 +24,10 @@ export default function GratitudePage() {
               </div>
               <Badge variant="secondary" className="mb-4">Gratitude Wall</Badge>
               <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-                Messages of Appreciation
+                Những lời tri ân
               </h1>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                A collection of heartfelt messages from visitors around the world, 
-                honoring the artisans who keep Vietnamese traditions alive.
+                Những thông điệp chân thành từ du khách khắp nơi trên thế giới, nhằm tôn vinh các nghệ nhân – những người đang ngày ngày gìn giữ và làm sống mãi các giá trị truyền thống của Việt Nam
               </p>
             </div>
           </div>

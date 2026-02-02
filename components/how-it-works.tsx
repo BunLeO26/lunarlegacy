@@ -4,26 +4,26 @@ import { Badge } from "@/components/ui/badge"
 const steps = [
   {
     icon: QrCode,
-    title: "Scan the QR Code",
-    description: "Find QR codes on authentic craft products, at village entrances, or in partner locations.",
+    title: "Quét mã QR",
+    description: "Bạn có thể tìm mã QR của chúng mình trên các sản phẩm thủ công chính hãng, tại cổng làng hoặc tại các địa điểm đối tác.",
     step: "01",
   },
   {
     icon: BookOpen,
-    title: "Discover the Story",
-    description: "Explore rich heritage content including artisan videos, craft history, and village traditions.",
+    title: "Khám phá câu chuyện",
+    description: "Khám phá nội dung di sản phong phú, bao gồm video về nghệ nhân, lịch sử nghề thủ công và các truyền thống của làng nghề.",
     step: "02",
   },
   {
     icon: Users,
-    title: "Connect with Artisans",
-    description: "Meet the craftspeople, learn about their techniques, and understand their dedication.",
+    title: "Kết nối với các nghệ nhân",
+    description: "Gặp gỡ các nghệ nhân, tìm hiểu về kỹ thuật chế tác của họ và thấu hiểu sự tâm huyết, cống hiến trong từng sản phẩm..",
     step: "03",
   },
   {
     icon: ShoppingBag,
-    title: "Support & Share",
-    description: "Purchase authentic products, share gratitude messages, and help preserve cultural heritage.",
+    title: "Hỗ trợ và chia sẻ",
+    description: "Mua các sản phẩm chính hãng, gửi lời tri ân và góp phần gìn giữ, bảo tồn di sản văn hóa..",
     step: "04",
   },
 ]
@@ -35,7 +35,7 @@ export function HowItWorks() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge variant="secondary" className="mb-4">How It Works</Badge>
           <h2 className="font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-            From Scan to Connection
+            Từ quét mã tới kết nối di sản 
           </h2>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             Our Lunar Legacy flow creates meaningful connections between you and traditional artisans 

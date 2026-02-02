@@ -5,16 +5,16 @@ import { Input } from "@/components/ui/input"
 
 const footerLinks = {
   explore: [
-    { name: "Heritage Library", href: "#heritage" },
-    { name: "Craft Categories", href: "#" },
-    { name: "Featured Artisans", href: "/artisans" },
-    { name: "Gratitude Wall", href: "/gratitude" },
+    { name: "Thư viện di sản", href: "#di sản" },
+    { name: "Danh mục sản phẩm", href: "#" },
+    { name: "Nghệ nhân nổi bật", href: "/nghệ nhân" },
+    { name: "Tri ân", href: "/tri ân" },
   ],
   support: [
-    { name: "How It Works", href: "#" },
-    { name: "Partner With Us", href: "#" },
+    { name: "Cách thức hoạt động", href: "#" },
+    { name: "Hợp tác cùng chúng tôi", href: "#" },
     { name: "FAQs", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Liên hệ", href: "#" },
   ],
   legal: [
     { name: "Privacy Policy", href: "#" },
@@ -36,28 +36,27 @@ export function Footer() {
               <span className="font-serif text-xl font-semibold">Lunar Legacy</span>
             </Link>
             <p className="text-sidebar-foreground/70 mb-6 max-w-sm leading-relaxed">
-              Connecting consumers with traditional craft villages through the power of 
-              storytelling and technology. Preserving cultural heritage for future generations.
+              Kết nối người tiêu dùng với các làng nghề truyền thống thông qua sức mạnh của câu chuyện và công nghệ. Gìn giữ di sản văn hóa cho các thế hệ tương lai.
             </p>
             
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-sidebar-foreground/70">
                 <MapPin className="h-4 w-4 shrink-0" />
-                <span>Hanoi, Vietnam</span>
+                <span>146 Hai Bà Trưng, phường Quảng Trị, Quảng Trị</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-sidebar-foreground/70">
                 <Mail className="h-4 w-4 shrink-0" />
-                <span>hello@lunarlegacy.com</span>
+                <span>lunarlegacysince2025@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-sidebar-foreground/70">
                 <Phone className="h-4 w-4 shrink-0" />
-                <span>+84 24 1234 5678</span>
+                <span>+84 855 853 001</span>
               </div>
             </div>
           </div>
 
           <div>
-            <h3 className="font-serif font-semibold mb-4">Explore</h3>
+            <h3 className="font-serif font-semibold mb-4">Khám phá</h3>
             <ul className="space-y-3">
               {footerLinks.explore.map((link) => (
                 <li key={link.name}>

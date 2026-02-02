@@ -8,13 +8,8 @@ import { MapPin, ArrowRight, Filter } from "lucide-react"
 import Link from "next/link"
 
 const categories = [
-  { id: "all", name: "Các sản phẩm" },
-  { id: "ceramics", name: "Ceramics" },
-  { id: "silk", name: "Silk Weaving" },
-  { id: "lacquer", name: "Lacquerware" },
-  { id: "wood", name: "Woodworking" },
-  { id: "bronze", name: "Bronze Casting" },
-  { id: "embroidery", name: "Embroidery" },
+  { id: "all", name: "Các bước làm " },
+  { id: "ceramics", name: "Sản phẩm của chúng tôi" },
 ]
 
 const heritageItems = [
@@ -44,7 +39,7 @@ const heritageItems = [
   },
   {
     id: " ",
-    name: "",
+    name: " ",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
     featured: false,
   },

@@ -19,11 +19,10 @@ export default function ArtisansPage() {
             <div className="text-center max-w-3xl mx-auto mb-12">
               <Badge variant="secondary" className="mb-4">Our Artisans</Badge>
               <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
-                Meet the Masters of Heritage
+                Gặp gỡ các nghệ nhân 
               </h1>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                Discover the skilled craftspeople who dedicate their lives to preserving 
-                centuries of Vietnamese tradition and artisanal excellence.
+                Khám phá những nghệ nhân làm bánh tét truyền thống – những con người dành trọn cuộc đời để gìn giữ hương vị Tết quê hương và tinh hoa ẩm thực Việt qua nhiều thế hệ.
               </p>
             </div>
 
