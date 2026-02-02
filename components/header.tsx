@@ -6,9 +6,9 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navigation = [
-  { name: "Heritage Library", href: "#heritage" },
-  { name: "Artisans", href: "/artisans" },
-  { name: "Gratitude Wall", href: "/gratitude" },
+  { name: "Thư viện di sản", href: "#heritage" },
+  { name: "Nghệ nhân", href: "/artisans" },
+  { name: "Tri ân", href: "/gratitude" },
   { name: "About", href: "#about" },
 ]
 

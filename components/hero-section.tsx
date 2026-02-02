@@ -60,7 +60,7 @@ export function HeroSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-muted">
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent z-10" />
               <img
-                src="./banhtet.jpg"
+                src="./banhtetmattrang.jpg"
                 alt="Traditional Vietnamese ceramic artisan at work"
                 className="object-cover w-full h-full"
               />
@@ -72,8 +72,8 @@ export function HeroSection() {
                     </div>
                     <div>
 
-            <h3 className="font-serif font-semibold text-card-foreground">Bat Trang Village</h3>
-                      <p className="text-sm text-muted-foreground">Traditional Ceramics since 1010 AD</p>
+            <h3 className="font-serif font-semibold text-card-foreground">Làng Đại An Khê</h3>
+                      <p className="text-sm text-muted-foreground">Làng nghề truyền thống với lịch sử hơn 500 năm</p>
                     </div>
                   </div>
                 </div>

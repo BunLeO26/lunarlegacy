@@ -217,7 +217,7 @@ export const gratitudeMessages: GratitudeMessage[] = [
   },
   {
     id: "4",
-    author: "Maria Santos",
+    author: "Bà Nguyễn Thị Ngưu",
     location: "Lisbon, Portugal",
     message: "Scanning the QR code on my ceramic bowl and learning about Bat Trang village made my souvenir so much more meaningful. This platform is wonderful!",
     date: "2025-09-12",
