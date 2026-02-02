@@ -52,8 +52,8 @@ const heritageItems: HeritageItem[] = [
   },
   {
     id: " ",
-    name: " ",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop",
+    name: "Sản phẩm được đóng gói và đưa ra thị trường",
+    image: "./trungbay.jpg",
     featured: false,
   },
   {
